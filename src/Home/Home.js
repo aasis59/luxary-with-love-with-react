@@ -85,7 +85,6 @@ function Home() {
               <span>Price matching all Canadian retailers</span>
             </div>
             <div className="col-sm-4 col-12 text-start">
-             
               <i class="bi bi-stars"></i>
               <span>4.8 stars on GBP - 79 Google reviews</span>
             </div>
@@ -93,9 +92,43 @@ function Home() {
         </div>
       </section>
       <section className="second-section ">
-        
-
+        <div className="second-section-text">
+          <h1>Limited Live Sale</h1>
+          <h2>XX%</h2>
+          <h3>discount on curated items</h3>
+          <button>Sign Up Now!</button>
+        </div>
       </section>
+      <section className="third-section">
+        <div className="container">What folks can’t get enough of</div>
+      </section>
+      <section className="fourth-section">
+       <div className="container">
+       <div className="row text-center">
+          <div className="col fourth-section-img ">
+            <img src="./image/Frame 4.png" alt="loading...." className="img-fluid " />
+            <span>Rings</span>
+          </div>
+          <div className="col fourth-section-img">
+            <img src="./image/Frame 5.png" alt="loading...." className="img-fluid" />
+             <span>bracelets</span>
+          </div>
+          <div className="col fourth-section-img">
+            <img src="./image/Frame 6.png" alt="loading...." className="img-fluid" />
+           <span>Necklaces</span>
+          </div>
+          <div className="col fourth-section-img">
+            <img src="./image/Frame 7.png" alt="loading...." className="img-fluid" />
+            <span>Ear Rings</span>
+          </div>
+          <div className="col fourth-section-img">
+            <img src="./image/Frame 8.png" alt="loading...." className="img-fluid" />
+            <span>Jewelry Sets</span>
+          </div>
+        </div>
+       </div>
+      </section>
+      
     </div>
   );
 }
