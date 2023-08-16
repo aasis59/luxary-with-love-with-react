@@ -1,7 +1,15 @@
 import React from "react";
 import "./Home.scss";
+import Carousel from "react-elastic-carousel";
 
 function Home() {
+  const breakpoint = [
+    { width: 1, itemsToShow: 1, pagination: false },
+    { width: 550, itemsToShow: 2, pagination: false },
+    { width: 850, itemsToShow: 3, pagination: false },
+    { width: 1150, itemsToShow: 4, pagination: false },
+  ];
+
   return (
     <div>
       <section className="top-section">
@@ -103,32 +111,121 @@ function Home() {
         <div className="container">What folks can’t get enough of</div>
       </section>
       <section className="fourth-section">
-       <div className="container">
-       <div className="row text-center">
-          <div className="col fourth-section-img ">
-            <img src="./image/Frame 4.png" alt="loading...." className="img-fluid " />
-            <span>Rings</span>
-          </div>
-          <div className="col fourth-section-img">
-            <img src="./image/Frame 5.png" alt="loading...." className="img-fluid" />
-             <span>bracelets</span>
-          </div>
-          <div className="col fourth-section-img">
-            <img src="./image/Frame 6.png" alt="loading...." className="img-fluid" />
-           <span>Necklaces</span>
-          </div>
-          <div className="col fourth-section-img">
-            <img src="./image/Frame 7.png" alt="loading...." className="img-fluid" />
-            <span>Ear Rings</span>
-          </div>
-          <div className="col fourth-section-img">
-            <img src="./image/Frame 8.png" alt="loading...." className="img-fluid" />
-            <span>Jewelry Sets</span>
+        <div className="container">
+          <div className="row text-center">
+            <div className="col fourth-section-img ">
+              <img
+                src="./image/Frame 4.png"
+                alt="loading...."
+                className="img-fluid "
+              />
+              <span>Rings</span>
+            </div>
+            <div className="col fourth-section-img">
+              <img
+                src="./image/Frame 5.png"
+                alt="loading...."
+                className="img-fluid"
+              />
+              <span>bracelets</span>
+            </div>
+            <div className="col fourth-section-img">
+              <img
+                src="./image/Frame 6.png"
+                alt="loading...."
+                className="img-fluid"
+              />
+              <span>Necklaces</span>
+            </div>
+            <div className="col fourth-section-img">
+              <img
+                src="./image/Frame 7.png"
+                alt="loading...."
+                className="img-fluid"
+              />
+              <span>Ear Rings</span>
+            </div>
+            <div className="col fourth-section-img">
+              <img
+                src="./image/Frame 8.png"
+                alt="loading...."
+                className="img-fluid"
+              />
+              <span>Jewelry Sets</span>
+            </div>
           </div>
         </div>
-       </div>
       </section>
-      
+      <section className="slide-section">
+        <div className="container slide-section-row">
+          <div className="row ">
+            <div className="col-lg-2 slide-section-text">
+              The best of
+              <br /> the best
+            </div>
+            <div className="col-lg-10 ">
+              <Carousel breakPoints={breakpoint}>
+                <div className="card slide-section-image h-100 ">
+                  <img src="./image/image 8.png" alt="..." />
+                  <div className="card-body">
+                    <p>
+                      Handshower Set With 36 Inch Slide Bar And 4-Function
+                      Handshower - Chrome | Model Number: 1010C
+                    </p>
+                    <h5>Luxury with Love</h5>
+                    <h6>$21.00 USD</h6>
+                    <button>
+                      <i class="bi bi-cart-check"></i>Add to cart
+                    </button>
+                  </div>
+                </div>
+                <div className="card slide-section-image h-100">
+                  <img src="./image/image 8 (1).png" alt="..." />
+                  <div className="card-body">
+                    <p>
+                      Handshower Set With 36 Inch Slide Bar And 4-Function
+                      Handshower - Chrome | Model Number: 1010C
+                    </p>
+                    <h5>Luxury with Love</h5>
+                    <h6>$21.00 USD</h6>
+                    <button>
+                      <i class="bi bi-cart-check"></i>Add to cart
+                    </button>
+                  </div>
+                </div>
+                <div className="card slide-section-image h-100">
+                  <img src="./image/image 8 (2).png" alt="..." />
+                  <div className="card-body">
+                    <p>
+                      Handshower Set With 36 Inch Slide Bar And 4-Function
+                      Handshower - Chrome | Model Number: 1010C
+                    </p>
+                    <h5>Luxury with Love</h5>
+                    <h6>$21.00 USD</h6>
+                    <button>
+                      <i class="bi bi-cart-check"></i>Add to cart
+                    </button>
+                  </div>
+                </div>
+                <div className="card slide-section-image h-100">
+                  <img src="./image/image 8.png" alt="..." />
+                  <div className="card-body">
+                    <p>
+                      Handshower Set With 36 Inch Slide Bar And 4-Function
+                      Handshower - Chrome | Model Number: 1010C
+                    </p>
+                    <h5>Luxury with Love</h5>
+                    <h6>$21.00 USD</h6>
+                    <button>
+                      <i class="bi bi-cart-check"></i>Add to cart
+                    </button>
+                  </div>
+                </div>
+              </Carousel>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
