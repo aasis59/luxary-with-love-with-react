@@ -9,6 +9,7 @@ function Home() {
     { width: 850, itemsToShow: 3, pagination: false },
     { width: 1150, itemsToShow: 4, pagination: false },
   ];
+ 
 
   return (
     <div>
@@ -165,7 +166,8 @@ function Home() {
             </div>
             <div className="col-lg-10 ">
               <Carousel breakPoints={breakpoint}>
-                <div className="card slide-section-image h-100 ">
+              
+                <div className="card h-100 slide-section-image  ">
                   <img src="./image/image 8.png" alt="..." />
                   <div className="card-body">
                     <p>
@@ -225,6 +227,348 @@ function Home() {
             </div>
           </div>
         </div>
+      </section>
+      <section className="middle-section">
+        <div className="container">
+          <div className="middle-section-p">WHY LUXYRYWITHLOVE UP?</div>
+          <div className="container">
+            <div className="row">
+              <div className="col-md-3 col-sm-6 middle-section-text">
+                <h2>WE’RE PICKY ABOUT QUALITY</h2>
+                <p>
+                  There’s nothing more annoying than having to return your new
+                  gun because it wasn’t the real deal. That’s why we run a 25
+                  point quality test on all airsoft weapons so you only get the
+                  most legit.
+                </p>
+              </div>
+              <div className="col-md-3 col-sm-6 middle-section-text">
+                <h2>
+                  <h2>WE’RE PICKY ABOUT QUALITY</h2>
+                </h2>
+                <p>
+                  Let’s be honest. Scrolling through endless websites to find
+                  the perfect fit takes forever. So we decided to gather all
+                  those awesome airsoft brands you can’t stop talking about in
+                  our collections..
+                </p>
+              </div>
+              <div className="col-md-3 col-sm-6 middle-section-text">
+                <h2>FLASH DELIVERY</h2>
+                <p>
+                  Trust us, we know how daunting waiting for your new airsoft
+                  weapon to arrive is. Lucky for you, Flash is a full-time
+                  employee so your goodies arrive ASAP.
+                </p>
+              </div>
+              <div className="col-md-3 col-sm-6 middle-section-text">
+                <h2>WE STAND ON GUARD FOR THEE</h2>
+                <p>
+                  That’s right b’y. Beforehand, we’re airsoft lovers and
+                  enthusiasts. And as members of the airsoft community, we do
+                  the impossible to help you find what you need at the best
+                  pricing and fix any issues with a big smile on our face.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="large-section">
+        <div className="container-fulid">
+          <div className="row">
+            <div className="col-lg-4 col-12">
+              <div className="card large-section-card">
+                <img src="./image/Rectangle 3.png" alt="...." />
+                <div className="card-body">
+                  <h5>SOME THINGS NEVER CHANGE</h5>
+                  <h6>E&L will always be essential.</h6>
+                  <button>
+                    I want some<i class="bi bi-arrow-right ms-2"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-12">
+              <div className="card large-section-card">
+                <img src="./image/Rectangle 3 (1).png" alt="...." />
+                <div className="card-body">
+                  <h5>OH, SHOOT!</h5>
+                  <h6>Didn't we mention we have a huge GBB restock?</h6>
+                  <button>
+                    No way, show me<i class="bi bi-arrow-right ms-2"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-12">
+              <div className="card large-section-card">
+                <img src="./image/Rectangle 3 (2).png" alt="...." />
+                <div className="card-body">
+                  <h5>UNDERPERFORMING?</h5>
+                  <h6>You're probably missing a Raven Elite Gen 2.</h6>
+                  <button>
+                    Totally, let me see it<i class="bi bi-arrow-right ms-2"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="slide-section m-0">
+        <div className="container slide-section-row">
+          <div className="row ">
+            <div className="col-lg-2 slide-section-text">
+              What’s
+              <br /> New?
+            </div>
+            <div className="col-lg-10 ">
+              <Carousel breakPoints={breakpoint}>
+                <div className="card h-50 slide-section-image  ">
+                  <img src="./image/image 8.png" alt="..." />
+                  <div className="card-body">
+                    <p>
+                      Handshower Set With 36 Inch Slide Bar And 4-Function
+                      Handshower - Chrome | Model Number: 1010C
+                    </p>
+                    <h5>Luxury with Love</h5>
+                    <h6>$21.00 USD</h6>
+                    <button>
+                      <i class="bi bi-cart-check"></i>Add to cart
+                    </button>
+                  </div>
+                </div>
+                <div className="card slide-section-image h-100">
+                  <img src="./image/image 8 (1).png" alt="..." />
+                  <div className="card-body">
+                    <p>
+                      Handshower Set With 36 Inch Slide Bar And 4-Function
+                      Handshower - Chrome | Model Number: 1010C
+                    </p>
+                    <h5>Luxury with Love</h5>
+                    <h6>$21.00 USD</h6>
+                    <button>
+                      <i class="bi bi-cart-check"></i>Add to cart
+                    </button>
+                  </div>
+                </div>
+                <div className="card slide-section-image h-100">
+                  <img src="./image/image 8 (2).png" alt="..." />
+                  <div className="card-body">
+                    <p>
+                      Handshower Set With 36 Inch Slide Bar And 4-Function
+                      Handshower - Chrome | Model Number: 1010C
+                    </p>
+                    <h5>Luxury with Love</h5>
+                    <h6>$21.00 USD</h6>
+                    <button>
+                      <i class="bi bi-cart-check"></i>Add to cart
+                    </button>
+                  </div>
+                </div>
+                <div className="card slide-section-image h-100">
+                  <img src="./image/image 8.png" alt="..." />
+                  <div className="card-body">
+                    <p>
+                      Handshower Set With 36 Inch Slide Bar And 4-Function
+                      Handshower - Chrome | Model Number: 1010C
+                    </p>
+                    <h5>Luxury with Love</h5>
+                    <h6>$21.00 USD</h6>
+                    <button>
+                      <i class="bi bi-cart-check"></i>Add to cart
+                    </button>
+                  </div>
+                </div>
+                <div className="card slide-section-image h-100">
+                  <img src="./image/image 8 (1).png" alt="..." />
+                  <div className="card-body">
+                    <p>
+                      Handshower Set With 36 Inch Slide Bar And 4-Function
+                      Handshower - Chrome | Model Number: 1010C
+                    </p>
+                    <h5>Luxury with Love</h5>
+                    <h6>$21.00 USD</h6>
+                    <button>
+                      <i class="bi bi-cart-check"></i>Add to cart
+                    </button>
+                  </div>
+                </div>
+                
+              </Carousel>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="slide-section m-0">
+        <div className="container slide-section-row">
+          <div className="row ">
+            <div className="col-lg-2 slide-section-text">
+              Recent
+              <br /> Restock
+            </div>
+            <div className="col-lg-10 ">
+              <Carousel breakPoints={breakpoint}>
+                <div className="card h-50 slide-section-image  ">
+                  <img src="./image/image 8.png" alt="..." />
+                  <div className="card-body">
+                    <p>
+                      Handshower Set With 36 Inch Slide Bar And 4-Function
+                      Handshower - Chrome | Model Number: 1010C
+                    </p>
+                    <h5>Luxury with Love</h5>
+                    <h6>$21.00 USD</h6>
+                    <button>
+                      <i class="bi bi-cart-check"></i>Add to cart
+                    </button>
+                  </div>
+                </div>
+                <div className="card slide-section-image h-100">
+                  <img src="./image/image 8 (1).png" alt="..." />
+                  <div className="card-body">
+                    <p>
+                      Handshower Set With 36 Inch Slide Bar And 4-Function
+                      Handshower - Chrome | Model Number: 1010C
+                    </p>
+                    <h5>Luxury with Love</h5>
+                    <h6>$21.00 USD</h6>
+                    <button>
+                      <i class="bi bi-cart-check"></i>Add to cart
+                    </button>
+                  </div>
+                </div>
+                <div className="card slide-section-image h-100">
+                  <img src="./image/image 8 (2).png" alt="..." />
+                  <div className="card-body">
+                    <p>
+                      Handshower Set With 36 Inch Slide Bar And 4-Function
+                      Handshower - Chrome | Model Number: 1010C
+                    </p>
+                    <h5>Luxury with Love</h5>
+                    <h6>$21.00 USD</h6>
+                    <button>
+                      <i class="bi bi-cart-check"></i>Add to cart
+                    </button>
+                  </div>
+                </div>
+                <div className="card slide-section-image h-100">
+                  <img src="./image/image 8.png" alt="..." />
+                  <div className="card-body">
+                    <p>
+                      Handshower Set With 36 Inch Slide Bar And 4-Function
+                      Handshower - Chrome | Model Number: 1010C
+                    </p>
+                    <h5>Luxury with Love</h5>
+                    <h6>$21.00 USD</h6>
+                    <button>
+                      <i class="bi bi-cart-check"></i>Add to cart
+                    </button>
+                  </div>
+                </div>
+                <div className="card slide-section-image h-100">
+                  <img src="./image/image 8 (1).png" alt="..." />
+                  <div className="card-body">
+                    <p>
+                      Handshower Set With 36 Inch Slide Bar And 4-Function
+                      Handshower - Chrome | Model Number: 1010C
+                    </p>
+                    <h5>Luxury with Love</h5>
+                    <h6>$21.00 USD</h6>
+                    <button>
+                      <i class="bi bi-cart-check"></i>Add to cart
+                    </button>
+                  </div>
+                </div>
+              </Carousel>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="blog-section">
+        <div className="container">
+          <div className="text-center blog-section-text">
+            THE LUXYRYWITHLOVE BLOG
+          </div>
+          <div className="row">
+            <div className=" col-sm-6 col-12">
+              <div className="card blog-section-card">
+                <img src="./image/blog.png" alt="..." />
+                <div className="card-body">
+                  <p className="text-center"> Blog Post</p>
+                  <h5 className="text-center">
+                    Give your customers a summary of your blog post
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div className=" col-sm-6 col-12">
+              <div className="card blog-section-card">
+                <img src="./image/blog.png" alt="..." />
+                <div className="card-body">
+                  <p className="text-center"> Blog Post</p>
+                  <h5 className="text-center">
+                    Give your customers a summary of your blog post
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="input-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-5 input-section-first">
+              <p>you’ve come so far.</p>
+              <h6>
+                So why not join our crew of airsoft nutheads for monthly
+                promotions, updates and tips? Nothing can go wrong
+              </h6>
+            </div>
+            <div className="col-md-3 input-section-second">
+              <p>YOUR NAME</p>
+              <div className="pad"></div>
+            </div>
+            <div className="col-md-3 input-section-second">
+              <p>YOUR EMAIL</p>
+              <div className="pad"></div>
+            </div>
+
+            <div className="col-md-1 input-section-second">
+              <button>Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="bottom-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-3">
+              <img
+                className="img-fulid"
+                src="./image/Layer_1.png"
+                alt="..."
+              ></img>
+              <div className="d-block mt-3">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram ms-4"></i>
+                <i class="bi bi-twitter ms-4"></i>
+                <i class="bi bi-youtube ms-4"></i>
+              </div>
+            </div>
+            <div className="col-md-3 mt-3">
+              <p>contact us</p>
+            </div>
+            <div className=" col-md-auto mt-3">
+              <p>Terms & Policies</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="footer-section text-center">
+        © 2023, luxurywithluv Powered by Shopify
       </section>
     </div>
   );
